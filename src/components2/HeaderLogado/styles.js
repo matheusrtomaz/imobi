@@ -7,7 +7,7 @@ const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: #DBDBDB;
+    background-color: var(--white);
 `;
 
 const Logo = styled.div`
@@ -35,7 +35,7 @@ const Login = styled.div`
     span.toque {
         width: 55px;
         height: 55px;
-        /* border: 2px solid var(--gray); */
+        border: 2px solid var(--gray);
         border-radius: 50px;
         padding: 10px;
         display: flex;
