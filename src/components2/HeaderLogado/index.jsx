@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Logo, Login } from "./styles";
 import LogoImg from "../../assets/logo.png";
 import Avatar from "../../assets/avatar.png";
-import { MdNotificationsNone } from "react-icons/md";
-import { LuMessageSquareMore } from "react-icons/lu";
+import { LuBell, LuMessageSquareMore } from "react-icons/lu";
 
 
 const HeaderLogado = () => {
@@ -13,8 +12,8 @@ const HeaderLogado = () => {
                 <img src={LogoImg} alt="Logo" />
             </Logo>
             <Login>
-                <span className="toque"><MdNotificationsNone size={26}/></span>
                 <span className="toque"><LuMessageSquareMore /></span>
+                <span className="toque"><LuBell /></span>
                 <img src={Avatar} alt="Foto do Perfil" />
                 <span className="nome">Márcio Fonseca</span>
             </Login>
