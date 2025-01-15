@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Logo, Menu, Login } from "./styles";
-import LogoImg from "../../assets/canvaLogo.png";
+import LogoImg from "../../assets/logo.png";
 import Avatar from "../../assets/avatar.png";
 import { IoNotificationsOutline } from "react-icons/io5";
 import { LuMessageSquareMore } from "react-icons/lu";
