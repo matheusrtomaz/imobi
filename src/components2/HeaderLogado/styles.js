@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
     padding: 25px 150px;
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,12 +15,10 @@ const Logo = styled.div`
     justify-content: space-between;
     align-items: center;
     img {
-        width: 130px;
+        width: 120px;
         height: auto;
     }
 `;
-
-const Menu = styled.div``;
 
 const Login = styled.div`
     display: flex;
@@ -28,22 +26,21 @@ const Login = styled.div`
     align-items: center;
 
     img {
-        width: 55px;
+        width: 50px;
         height: auto;
         border-radius: 50%;
         margin-left: 15px;
     }
     span.toque {
-        width: 55px;
-        height: 55px;
+        width: 50px;
+        height: 50px;
         border: 2px solid var(--gray);
-        border-radius: 50px;
+        border-radius: 50%;
         padding: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.2rem;
-        font-weight: 500;
+        font-size: 1.5rem;
         margin-left: 15px;
         background-color: var(--white);
         color: var(--black);
@@ -61,4 +58,4 @@ const Login = styled.div`
     }
 `;
 
-export { Container, Logo, Menu, Login };
+export { Container, Logo, Login };
