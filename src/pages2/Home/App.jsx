@@ -1,8 +1,8 @@
 import React from 'react';
 import GlobalStyles from '../../styles/globalStyles';
-// import Header from '../../components2/Header';
-import HeaderLogado from '../../components2/HeaderLogado';
-import Nav from '../../components2/Nav';
+// import Header from '../../components/Header';
+import HeaderLogado from '../../components/HeaderLogado';
+import Nav from '../../components/Nav';
 import '../../../src/index.css'
 
 

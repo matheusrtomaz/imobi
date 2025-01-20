@@ -20,6 +20,10 @@ const Logo = styled.div`
 `;
 
 const Menu = styled.div`
+    
+`;
+
+const Login = styled.div`
     ul {
         display: flex;
         justify-content: center;
@@ -40,4 +44,4 @@ const Menu = styled.div`
     }
 `;
 
-export { Container, Logo, Menu };
+export { Container, Logo, Menu, Login };

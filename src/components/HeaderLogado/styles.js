@@ -25,12 +25,12 @@ const Login = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    img {
+    /* img {
         width: 50px;
         height: auto;
         border-radius: 50%;
         margin-left: 15px;
-    }
+    } */
     span.toque {
         width: 50px;
         height: 50px;
@@ -48,6 +48,11 @@ const Login = styled.div`
             background-color: var(--gray);
         }
     }
+
+    .imgAvatar {
+        margin-left: 15px;
+    }
+
     span.nome {
         font-size: 1.2rem;
         font-weight: 500;
